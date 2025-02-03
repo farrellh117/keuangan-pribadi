@@ -55,8 +55,3 @@ class TransactionController extends Controller
         return redirect()->route('transactions.index')->with('success', 'Transaction deleted successfully.');
     }
 }
-
-// Routes: routes/web.php
-use App\Http\Controllers\TransactionController;
-
-Route::resource('transactions', TransactionController::class);
