@@ -20,18 +20,14 @@ Version Control: Git
 
 ## Cara Menjalankan
 
-Clone repositori ini.
+1. Clone repositori ini.
 
-Jalankan composer install.
+2. Jalankan composer install.
 
-Buat database dan sesuaikan file .env.
+3. Buat database dan sesuaikan file .env.
 
-Jalankan php artisan migrate --seed.
+4. Jalankan php artisan migrate --seed.
 
-Jalankan php artisan serve.
+5. Jalankan php artisan serve.
 
-Buka browser dan akses http://localhost:8000/transactions.
-
-DB Username: afiq
-
-Password: (spasi 4x)
+6. Buka browser dan akses http://localhost:8000/transactions.
